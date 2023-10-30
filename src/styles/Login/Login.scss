@@ -1,0 +1,184 @@
+$blue: #3C6EFD;
+$hoverBlue: rgb(48, 48, 83);
+$white: white;
+$black: black;
+$red: red;
+$gray: rgb(80, 80, 80);
+$borderColor: rgb(153, 153, 153);
+$backColor: rgb(245, 245, 245);
+
+.register-outer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $white;
+    overflow: hidden;
+
+    hr {
+        width: 2px;
+        color: $borderColor;
+        height: 450px;
+    }
+
+    .register-inner {
+        max-width: 100%;
+        margin: 0 auto;
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 5px 1fr;
+        align-items: center;
+        justify-content: center;
+
+        .right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .logo {
+                width: 200px;
+                height: 200px;
+            }
+            
+            .header {
+                font-weight: normal;
+                font-size: 70px;
+            }
+
+            .sub-header {
+                font-weight: lighter;
+                font-size: 50px;
+            }
+        }
+
+        .left{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .form {
+                min-width: 400px;
+
+                .header {
+                    color: $black;
+                    margin-bottom: 20px;
+                }
+
+                .input {
+                    margin-bottom: 20px;
+                    margin-top: 10px;
+                    width: 400px;
+
+                    .error {
+                        color: red;
+                    }
+
+                    .elements {
+                        display: grid;
+                        grid-template-columns: 1fr 2fr 3fr;
+                        gap: 10px;
+                        margin-top: 10px;
+
+                        .input-field-two {
+                            color: $gray;
+                            background-color: $backColor;
+                            border-radius: 0.3rem;
+                            padding: 8px 12px;
+                            outline: none;
+                            border: 1.5px solid $borderColor;
+                        }
+                    }
+
+                    .loginText {
+                        text-align: left;
+
+                        span {
+                            color: $blue;
+                            text-decoration: underline;
+                        }
+                    }
+
+                    .loginLink {
+                        color: $blue;
+                        text-decoration: underline;
+                    }
+
+                    .subheader {
+                        color: $black;
+                        margin-bottom: 5px;
+
+                        .start-mark {
+                            color: $red;
+                            font-size: 18px;
+                            font-weight: bold;
+                        }
+                    }
+
+                    .input-field {
+                        color: $gray;
+                        background-color: $backColor;
+                        border-radius: 0.3rem;
+                        width: 400px;
+                        padding: 8px 12px;
+                        outline: none;
+                        border: 1.5px solid $borderColor;
+                    }
+
+                    .btn {
+                        width: 400px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        outline: none;
+                        border: none;
+                        padding: 10px 0;
+                        background-color: $blue;
+                        border-radius: 0.25rem;
+                        color:$white;
+                        cursor: pointer;
+                        font-weight: bolder;
+
+                        &:hover {
+                            background-color: $hoverBlue;
+                        }
+                    }
+                }
+
+                .input-radio {
+                    display: flex;
+                    align-items: center;
+                    gap: 50px;
+
+                    .radio {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+
+                        .radio-btn {
+
+                        }
+
+                        .subheader {
+
+                        }
+                    }
+                }
+
+                .input-description {
+                    width: 400px;
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 10px;
+
+                    .check-box {
+
+                    }
+
+                    .checkbox-text {
+                        color: $gray;
+                    }
+                }
+            }  
+        }
+        
+    }
+}

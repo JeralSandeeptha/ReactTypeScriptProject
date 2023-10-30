@@ -1,0 +1,57 @@
+.active {
+  color: black;
+}
+
+.navbar {
+  width: 100%;
+  min-height: 40px;
+  background-color: #E7F1FF;
+  padding: 10px 20px;
+}
+.navbar .navbar-inner {
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navbar-inner .box {
+  display: flex;
+  gap: 20px;
+}
+.navbar .navbar-inner .box .logo {
+  width: 50px;
+  height: 40px;
+}
+.navbar .navbar-inner .box .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .navbar-inner .box .nav-links .link {
+  color: #3C6EFD;
+  font-size: 15px;
+}
+.navbar .navbar-inner .box .nav-links .link:hover {
+  color: black;
+}
+.navbar .navbar-inner .form {
+  display: flex;
+  gap: 10px;
+}
+.navbar .navbar-inner .form .input {
+  padding: 5px 10px;
+  color: rgb(153, 153, 153);
+  border-radius: 0.25rem;
+  border: 1px solid rgb(153, 153, 153);
+}
+.navbar .navbar-inner .form .btn {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 5px 10px;
+  color: #3C6EFD;
+  border-radius: 0.25rem;
+  border: 1px solid #3C6EFD;
+}/*# sourceMappingURL=Navbar.css.map */

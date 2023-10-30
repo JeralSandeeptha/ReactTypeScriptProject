@@ -1,0 +1,137 @@
+.register-outer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  overflow: hidden;
+}
+.register-outer hr {
+  width: 2px;
+  color: rgb(153, 153, 153);
+  height: 450px;
+}
+.register-outer .register-inner {
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 5px 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.register-outer .register-inner .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.register-outer .register-inner .right .logo {
+  width: 200px;
+  height: 200px;
+}
+.register-outer .register-inner .right .header {
+  font-weight: normal;
+  font-size: 70px;
+}
+.register-outer .register-inner .right .sub-header {
+  font-weight: lighter;
+  font-size: 50px;
+}
+.register-outer .register-inner .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-outer .register-inner .left .form {
+  min-width: 400px;
+}
+.register-outer .register-inner .left .form .header {
+  color: black;
+  margin-bottom: 20px;
+}
+.register-outer .register-inner .left .form .input {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 400px;
+}
+.register-outer .register-inner .left .form .input .error {
+  color: red;
+}
+.register-outer .register-inner .left .form .input .elements {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+.register-outer .register-inner .left .form .input .elements .input-field-two {
+  color: rgb(80, 80, 80);
+  background-color: rgb(245, 245, 245);
+  border-radius: 0.3rem;
+  padding: 8px 12px;
+  outline: none;
+  border: 1.5px solid rgb(153, 153, 153);
+}
+.register-outer .register-inner .left .form .input .loginText {
+  text-align: left;
+}
+.register-outer .register-inner .left .form .input .loginText span {
+  color: #3C6EFD;
+  text-decoration: underline;
+}
+.register-outer .register-inner .left .form .input .loginLink {
+  color: #3C6EFD;
+  text-decoration: underline;
+}
+.register-outer .register-inner .left .form .input .subheader {
+  color: black;
+  margin-bottom: 5px;
+}
+.register-outer .register-inner .left .form .input .subheader .start-mark {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+.register-outer .register-inner .left .form .input .input-field {
+  color: rgb(80, 80, 80);
+  background-color: rgb(245, 245, 245);
+  border-radius: 0.3rem;
+  width: 400px;
+  padding: 8px 12px;
+  outline: none;
+  border: 1.5px solid rgb(153, 153, 153);
+}
+.register-outer .register-inner .left .form .input .btn {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  padding: 10px 0;
+  background-color: #3C6EFD;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.register-outer .register-inner .left .form .input .btn:hover {
+  background-color: rgb(48, 48, 83);
+}
+.register-outer .register-inner .left .form .input-radio {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.register-outer .register-inner .left .form .input-radio .radio {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.register-outer .register-inner .left .form .input-description {
+  width: 400px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.register-outer .register-inner .left .form .input-description .checkbox-text {
+  color: rgb(80, 80, 80);
+}/*# sourceMappingURL=Login.css.map */

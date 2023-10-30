@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "firstName": "Jeral",
+      "lastName": "Sandeeptha",
+      "email": "jeral.sandeeptha@gmail.com",
+      "password": "mnjs0529",
+      "gender": "male",
+      "birthday": "29 May 2000",
+      "isSubscribed": true,
+      "phone": "0778250712",
+      "id": 2
+    },
+    {
+      "firstName": "Jeral",
+      "lastName": "Sandeeptha",
+      "email": "jeral.sandeeptha@gmail.com",
+      "password": "mnjs0529",
+      "gender": "male",
+      "birthday": "29 May 2000",
+      "isSubscribed": true,
+      "phone": "0778250712",
+      "id": 1
+    },
+    {
+      "firstName": "Jeral",
+      "lastName": "Sandeeptha",
+      "email": "jeral.sandeeptha@gmail.com",
+      "password": "mnjs0529",
+      "gender": "male",
+      "birthday": "29 May 2000",
+      "isSubscribed": true,
+      "phone": "0778250712",
+      "id": 3
+    }
+  ]
+}
